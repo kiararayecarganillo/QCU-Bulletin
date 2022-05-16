@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-container{
+    width: 100%;
+    height: 90px;
+    background: #002347;    
+}
+.nav-container nav{
+    width: 100%;
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav-container nav .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-container nav .logo img{
+    height: auto;
+    width: 60px;
+
+}
+.nav-container nav .logo h3{
+    font-size: 22px;
+    margin-left: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-container nav .logo h3 span{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.main .qcu_pic{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+.main .qcu_pic img{ 
+    height: auto;
+    width: 510px;
+}
+.main .form_container{
+margin-top: 10px;
+}
+.main .form_login_wrapper{
+   
+    width: 100%;
+    max-width: 800px;
+    height: 440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+    grid-auto-flow: column;
+}
+
+.main .form_login_wrapper .welcome{
+    background: #023047;
+    padding: 40px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.main .form_login_wrapper .my_form{
+    background: #023047;
+    padding: 40px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+.main .form_login_wrapper .welcome p{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px ;
+}
+
+
+
+.main .form_login_wrapper .my_form form{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    position: relative;
+    padding: 30px;
+    display: grid;
+}
+.main .form_login_wrapper .my_form form img{
+    height: auto;
+    width: 77px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.main .form_login_wrapper .my_form form h3{
+    color: #56585D;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+}
+.main .form_login_wrapper .my_form form .input_wrapper{
+    display: grid;
+    height: 60px;
+}
+
+.main .form_login_wrapper .my_form form .input_wrapper input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.main .form_login_wrapper .my_form form #btn{
+    background: #1cA72F;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    cursor: pointer;
+}
+.main .form_login_wrapper .my_form form .register{
+    font-size: 13px;
+}
